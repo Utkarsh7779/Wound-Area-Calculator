@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wound Area Calculator</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link the CSS file -->
+</head>
+<body>
+
+    <h1>Wound Area Calculator</h1>
+
+    <!-- This is where the image and canvas will appear -->
+    <input type="file" id="imageLoader" accept="image/*">
+    <br><br>
+    <canvas id="woundCanvas" style="border:1px solid black;"></canvas>
+    <br>
+<button onclick="calculateArea()">Calculate Area</button>
+<button onclick="clearPoints()">Clear Points</button>
+<p id="areaDisplay">Area: 0 pixels²</p>
+
+
+
+
+    <script src="script.js"></script> <!-- Link the JS file -->
+</body>
+</html>
